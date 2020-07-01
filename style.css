@@ -1,0 +1,180 @@
+*
+  {
+    font-family: Arial;
+    color: #444;  
+  }
+
+a:hover
+  {
+    color: #444;
+    text-decoration: underline;
+  }
+
+a
+  {
+    color:#444;
+    text-decoration-color: transparent;
+  }
+
+#main
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+  }
+
+  .head
+    {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .Gmail
+      {
+        margin-right: 10px;
+        font-size: 12px;
+      }
+
+    .Images
+      {
+        margin-right: 10px;
+        font-size: 12px;
+      }
+
+    .google-applications
+      {
+        margin-right: 10px;
+      }
+
+    .connexion-button
+      {
+        width: 100px;
+        height: 33px;
+        background-color: navy;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-style: none;
+        border-radius: 6px;
+      }
+
+  .search
+    { 
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+
+    .search-input
+      {
+        width: 500px;
+        height: 33px;
+        border-color: #EEE;
+        border-width: 1px;
+        border-radius: 20px 20px 20px 20px;
+        margin: auto;
+      }
+
+
+
+    .search-input:hover
+      {
+        box-shadow: 1px 1px 1px #aaa;
+      } 
+
+    .buttons
+    {
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+    }
+
+      .google-search-button
+      {
+      margin-right: 40px;
+      background-color: #EEE;
+      color: #444;
+      border-color: transparent;
+      }
+
+      .im-feeling-lucky-button
+        {
+          margin-left: 40px;
+          background-color: #EEE;
+          color: #444;
+          border-color: transparent;
+       }
+
+  .footer
+    {
+      display: flex;
+      justify-content: space-between;
+      color: #444;
+      background-color: #EEE;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-color: #444;
+      border-width: 1px;
+    }
+
+    .footer-left
+      {
+        display:flex;
+        flex-direction: row;
+      }
+
+      .Advertising
+        {
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 14px;
+        }
+
+      .Business
+        {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+
+      .About
+        {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+
+      .HowSearchworks
+        {
+          font-size: 14px;
+        }
+
+    .footer-right
+      {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .Consumer-Information
+        {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+
+      .Privacy
+        {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+
+      .Terms
+        {
+          margin-right: 10px;
+          font-size: 14px;
+        }
+
+      .Settings
+        {
+          margin-right: 10px;
+          font-size: 14px;
+        }
