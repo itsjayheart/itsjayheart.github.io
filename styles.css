@@ -1,0 +1,18 @@
+.jumbotron {
+  
+  height: 100%;
+
+  background-image: url("man-wearing-makeup-3008355.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signature {
+  color: #949494;
+}
+
+h2 {
+  padding: 20px;
+}
